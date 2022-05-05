@@ -16,7 +16,7 @@ namespace TPWinForm_Aguirre_Amarillo
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new fmrCargarArticulo());
+            Application.Run(new frmPrincipal());
         }
     }
 }

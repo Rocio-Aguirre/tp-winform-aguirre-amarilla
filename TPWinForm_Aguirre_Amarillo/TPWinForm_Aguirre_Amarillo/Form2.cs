@@ -16,5 +16,11 @@ namespace TPWinForm_Aguirre_Amarillo
         {
             InitializeComponent();
         }
+
+        private void agregarArtículoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmCargarArticulo ventana = new frmCargarArticulo();
+            ventana.ShowDialog();
+        }
     }
 }

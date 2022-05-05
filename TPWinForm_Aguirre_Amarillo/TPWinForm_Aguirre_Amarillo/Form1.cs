@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace TPWinForm_Aguirre_Amarillo
 {
-    public partial class fmrCargarArticulo : Form
+    public partial class frmCargarArticulo : Form
     {
-        public fmrCargarArticulo()
+        public frmCargarArticulo()
         {
             InitializeComponent();
         }
