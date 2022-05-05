@@ -16,5 +16,20 @@ namespace TPWinForm_Aguirre_Amarillo
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            // de ejemplo
+            Articulo art = new Articulo();
+            art.Cargar(1, "Facu", "Humano", 10000.99);
+
+            /*
+                MessageBox.Show($"Codigo: {art._cod}" +
+                $"\nNombre: {art._nombre}"+
+                $"\nDescripcion: {art._descr}"+
+                $"\nPrecio: {art._precio}");
+            */
+            
+        }
     }
 }
