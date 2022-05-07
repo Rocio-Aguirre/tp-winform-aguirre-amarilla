@@ -8,6 +8,7 @@ namespace TPWinForm_Aguirre_Amarillo
 {
     internal class Marca
     {
-        public string _nombMarca { get; set; }
+        public int _Id { get; set; }
+        public string _descMarca { get; set; }
     }
 }

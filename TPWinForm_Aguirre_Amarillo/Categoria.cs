@@ -8,6 +8,7 @@ namespace TPWinForm_Aguirre_Amarillo
 {
     internal class Categoria
     {
-        public int _numCat { get; set; }
+        public int _Id { get; set; }
+        public string _descCat { get; set; }
     }
 }
